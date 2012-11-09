@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>AddMscrmListMember(${1:GUID of record to add},${2:GUID of marketing list receiving marketing list})</string>
+	<key>name</key>
+	<string>AddMscrmListMember</string>
+	<key>tabTrigger</key>
+	<string>msalm</string>
+	<key>uuid</key>
+	<string>FAE8243A-B890-4E3C-A006-DBC39DBF9335</string>
+</dict>
+</plist>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>CreateMscrmRecord(${1:Name of MSCRM entity},${2:Number of name/pairs},${3:Name to create},${4:Value to create})</string>
+	<key>name</key>
+	<string>CreateMscrmRecord</string>
+	<key>tabTrigger</key>
+	<string>mscr</string>
+	<key>uuid</key>
+	<string>65E2B170-61AA-496D-B74A-6EC6D345B664</string>
+</dict>
+</plist>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>BuildRowSetFromXML(${1:XML},${2:Xpath},${3:Rowset error 0|1})
+</string>
+	<key>name</key>
+	<string>BuildRowSetFromXML</string>
+	<key>tabTrigger</key>
+	<string>brsfx</string>
+	<key>uuid</key>
+	<string>C5C06149-9B5D-42FB-9F7D-1450E1893C91</string>
+</dict>
+</plist>

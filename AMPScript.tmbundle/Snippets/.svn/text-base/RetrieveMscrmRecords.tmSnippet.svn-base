@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>RetrieveMscrmRecords(${1:Name of MSCRM entity},${2:CSV list of record GUIDs to update},${3:Field to check value of},${4:Operator},${5:Value})</string>
+	<key>name</key>
+	<string>RetrieveMscrmRecords</string>
+	<key>tabTrigger</key>
+	<string>msrr</string>
+	<key>uuid</key>
+	<string>99364873-1E1A-44F6-83A7-857CC6547304</string>
+</dict>
+</plist>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>HTTPRequestHeader(${1:Header to be retrieved})</string>
+	<key>name</key>
+	<string>HTTPRequestHeader</string>
+	<key>tabTrigger</key>
+	<string>http</string>
+	<key>uuid</key>
+	<string>B113F95D-87F8-4306-BCF7-04E3D5EC893C</string>
+</dict>
+</plist>

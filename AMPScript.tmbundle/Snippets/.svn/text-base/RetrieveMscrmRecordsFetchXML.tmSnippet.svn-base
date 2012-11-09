@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>RetrieveMscrmRecordsFetchXML(${1:XML query})</string>
+	<key>name</key>
+	<string>RetrieveMscrmRecordsFetchXML</string>
+	<key>tabTrigger</key>
+	<string>msrxml</string>
+	<key>uuid</key>
+	<string>96622A8B-0B96-462C-8A46-63C19720760A</string>
+</dict>
+</plist>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>LongSFID(${1:15-character SFID to convert})
+</string>
+	<key>name</key>
+	<string>LongSFID</string>
+	<key>tabTrigger</key>
+	<string>lsfid</string>
+	<key>uuid</key>
+	<string>ADD3776D-7263-40FB-AA5E-6E368C7F95FC</string>
+</dict>
+</plist>

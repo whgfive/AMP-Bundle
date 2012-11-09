@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>UpsertMscrmRecord(${1:Name of MSCRM entity to upsert},${2:Field used to sort the retrieve results},${3:Order to sort ASC|DSC},${4:Number of name/value pairs},${5:Name of attribute to filter},${6:Value of attribute to filter},${7:Name of attribute to update},${8:Value of attribute to update})</string>
+	<key>name</key>
+	<string>UpsertMscrmRecord</string>
+	<key>tabTrigger</key>
+	<string>msups</string>
+	<key>uuid</key>
+	<string>1CF2C1A9-9E5F-4EF6-BFE5-5F532203F7A4</string>
+</dict>
+</plist>

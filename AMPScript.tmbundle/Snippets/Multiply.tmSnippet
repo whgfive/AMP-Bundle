@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>Multiply(${1:First factor},${2:Second factor})</string>
+	<key>name</key>
+	<string>Multiply</string>
+	<key>tabTrigger</key>
+	<string>mu</string>
+	<key>uuid</key>
+	<string>4928744D-09EB-46A3-9793-837884786A28</string>
+</dict>
+</plist>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>LookupRows("${1:Data Extension Name}","${2:Column of rows to return}",${3:Value to match})</string>
+	<key>name</key>
+	<string>LookupRows</string>
+	<key>tabTrigger</key>
+	<string>lur</string>
+	<key>uuid</key>
+	<string>507ADCE2-A273-4583-A621-1CACD01BA977</string>
+</dict>
+</plist>

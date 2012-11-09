@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>ContentArea(${1:ID of CA})</string>
+	<key>name</key>
+	<string>ContentArea</string>
+	<key>tabTrigger</key>
+	<string>ca</string>
+	<key>uuid</key>
+	<string>E607D811-EB03-48D0-9C53-9676613F91E0</string>
+</dict>
+</plist>

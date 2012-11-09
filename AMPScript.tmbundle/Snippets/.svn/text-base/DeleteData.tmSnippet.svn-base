@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>DeleteData(${1:Data Extension},${2:Column to match},${3:Value match to delete row})</string>
+	<key>name</key>
+	<string>DeleteData</string>
+	<key>tabTrigger</key>
+	<string>deda</string>
+	<key>uuid</key>
+	<string>CD917886-C4F4-41FA-89A6-AB30125780BA</string>
+</dict>
+</plist>

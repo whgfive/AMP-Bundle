@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>DirectTwitterMessage(${1})</string>
+	<key>name</key>
+	<string>DirectTwitterMessage</string>
+	<key>tabTrigger</key>
+	<string>dtm</string>
+	<key>uuid</key>
+	<string>6F592302-717D-4424-A8B7-F081CAD96353</string>
+</dict>
+</plist>

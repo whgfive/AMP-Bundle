@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>LiveContentMicrositeURL(${1:Content type},${2:Live Content name})</string>
+	<key>name</key>
+	<string>LiveContentMicrositeURL</string>
+	<key>tabTrigger</key>
+	<string>lcmu</string>
+	<key>uuid</key>
+	<string>1F5455D6-F89B-4917-9C17-5055131068C6</string>
+</dict>
+</plist>

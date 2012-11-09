@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>WAT(${1:String to match},${2:Value to replace})</string>
+	<key>name</key>
+	<string>WAT</string>
+	<key>tabTrigger</key>
+	<string>wat</string>
+	<key>uuid</key>
+	<string>0792D7B8-1EE0-4DFF-B495-4A0C2C601CD6</string>
+</dict>
+</plist>

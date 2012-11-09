@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>AuthenticatedEmployeeNotificationAddress(${1})</string>
+	<key>name</key>
+	<string>AuthenticatedEmployeeNotificationAddress</string>
+	<key>tabTrigger</key>
+	<string>aena</string>
+	<key>uuid</key>
+	<string>A1D6D83B-A1B7-4CF1-B4CE-293B40CCF72E</string>
+</dict>
+</plist>

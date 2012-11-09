@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>IsEmailAddress(${1:Address to be validated})</string>
+	<key>name</key>
+	<string>IsEmailAddress</string>
+	<key>tabTrigger</key>
+	<string>iea</string>
+	<key>uuid</key>
+	<string>FD4CAEE7-D322-454F-B347-65664BF34301</string>
+</dict>
+</plist>

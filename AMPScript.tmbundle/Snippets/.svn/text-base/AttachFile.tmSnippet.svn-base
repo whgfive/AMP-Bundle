@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>AttachFile(${1:S1},${2:S2},${3:S3},${4:B1},${5:S4},${6:S5},${7:N1})</string>
+	<key>name</key>
+	<string>AttachFile</string>
+	<key>tabTrigger</key>
+	<string>att</string>
+	<key>uuid</key>
+	<string>63CC743A-F94D-42AC-9614-82C9939FD18B</string>
+</dict>
+</plist>

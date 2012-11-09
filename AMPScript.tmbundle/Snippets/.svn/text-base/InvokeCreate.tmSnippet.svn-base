@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>InvokeCreate(${1:API object to be created},${2:Output for status},${3:Output for error},${4:CreateOptions call})</string>
+	<key>name</key>
+	<string>InvokeCreate</string>
+	<key>tabTrigger</key>
+	<string>ic</string>
+	<key>uuid</key>
+	<string>94797EC8-D856-4766-92EB-4626CC61FB9D</string>
+</dict>
+</plist>

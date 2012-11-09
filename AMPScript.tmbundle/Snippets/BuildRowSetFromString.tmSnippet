@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>BuildRowSetFromString(${1:String to split},${2:Split on})
+</string>
+	<key>name</key>
+	<string>BuildRowSetFromString</string>
+	<key>tabTrigger</key>
+	<string>brsfs</string>
+	<key>uuid</key>
+	<string>21C6BE4B-663A-4C4F-8613-4D34F9A15A9E</string>
+</dict>
+</plist>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>BeginImpressionRegion(${1:Name of impression region})</string>
+	<key>name</key>
+	<string>BeginImpressionRegion</string>
+	<key>tabTrigger</key>
+	<string>begin</string>
+	<key>uuid</key>
+	<string>AA3473C0-47FD-429E-A65B-74C791B65933</string>
+</dict>
+</plist>

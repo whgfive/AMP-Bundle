@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>RetrieveSalesforceJobSources(${1:ETJobID})</string>
+	<key>name</key>
+	<string>RetrieveSalesforceJobSources</string>
+	<key>tabTrigger</key>
+	<string>rsjs</string>
+	<key>uuid</key>
+	<string>ED32A9F0-A1A9-4937-B789-387D3AE2BD87</string>
+</dict>
+</plist>

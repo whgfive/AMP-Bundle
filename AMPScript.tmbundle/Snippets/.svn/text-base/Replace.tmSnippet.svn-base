@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>Replace(${1:Variable to replace},"${2:String to replace}","${3:String to replace '$2'}")</string>
+	<key>name</key>
+	<string>Replace</string>
+	<key>tabTrigger</key>
+	<string>rep</string>
+	<key>uuid</key>
+	<string>050F28FB-2316-4B06-A1DA-F991A00A147D</string>
+</dict>
+</plist>

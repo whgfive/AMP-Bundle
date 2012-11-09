@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>SetObjectProperty(${1:API Object},${2:Name of property},${3:Value of property})</string>
+	<key>name</key>
+	<string>SetObjectProperty</string>
+	<key>tabTrigger</key>
+	<string>sop</string>
+	<key>uuid</key>
+	<string>0B531369-48F4-4928-A80A-4B62021CA420</string>
+</dict>
+</plist>

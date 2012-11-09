@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>InvokePerform(${1:API object to be performed},${2:Action to be performed},${3:Output for status})</string>
+	<key>name</key>
+	<string>InvokePerform</string>
+	<key>tabTrigger</key>
+	<string>ip</string>
+	<key>uuid</key>
+	<string>DDCA26A0-F07B-4AF9-8B46-EA91F39AFC7E</string>
+</dict>
+</plist>

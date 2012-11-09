@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>GetSocialPublishURL(${1:Number of SN on lookup},${2:Name of CA to be shared on SN})</string>
+	<key>name</key>
+	<string>GetSocialPublishURL</string>
+	<key>tabTrigger</key>
+	<string>gsp</string>
+	<key>uuid</key>
+	<string>40555057-CC45-41DB-AFEA-0C3791CE7A3B</string>
+</dict>
+</plist>

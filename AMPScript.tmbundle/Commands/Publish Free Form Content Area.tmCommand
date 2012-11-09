@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>name=$(CocoaDialog inputbox --title "Publish to Content Area" \
+    --informative-text "Please provide Content Area name:" \
+    --button1 "Next" --button2 "Cancel")
+[[ $(head -n1 &lt;&lt;&lt;"$name") == "2" ]] &amp;&amp; exit_discard
+name=$(tail -n1 &lt;&lt;&lt;"$name")
+
+user=$(CocoaDialog inputbox --title "Publish to Content Area" \
+    --informative-text "Please provide ExactTarget username:" \
+    --button1 "Next" --button2 "Cancel")
+[[ $(head -n1 &lt;&lt;&lt;"$user") == "2" ]] &amp;&amp; exit_discard
+user=$(tail -n1 &lt;&lt;&lt;"$user")
+
+pass=$(CocoaDialog secure-inputbox --title "Publish to Content Area" \
+    --informative-text "Please provide ExactTarget password:" \
+    --button1 "Next" --button2 "Cancel")
+[[ $(head -n1 &lt;&lt;&lt;"$pass") == "2" ]] &amp;&amp; exit_discard
+pass=$(tail -n1 &lt;&lt;&lt;"$pass")
+
+upload=$(ruby "$TM_BUNDLE_SUPPORT/bin/PostFFCA.rb" "$name" "$user" "$pass"
+	 2&gt; &gt;(CocoaDialog progressbar --indeterminate --title "Publish to Content Area" --text "Publishing to ExactTarget..."))
+echo "$upload"
+
+os=$(uname)
+
+if [ "$os" == "Darwin" ]; then
+	if [ "$upload" == "name" ]; then
+   		thebubble=$(CocoaDialog bubble --title "ExactTarget Publishing" --text "Must provide ContentArea name" --icon "x" --background-top "dfa723" --background-bottom "fdde88" --border-color "a25f0a")		
+	elif [ "$upload" == "user" ]; then
+		thebubble=$(CocoaDialog bubble --title "ExactTarget Publishing" --text "Incorrect ExactTarget Username/Password" --icon "x" --background-top "dfa723" --background-bottom "fdde88" --border-color "a25f0a")
+	elif [ "$upload" == "created" ]; then
+    	thebubble=$(CocoaDialog bubble --title "ExactTarget Publishing" --text "Publishing was a success!" --icon "document" --background-top "aefe95" --background-bottom "00cb24")
+	else
+		thebubble=$(CocoaDialog bubble --title "ExactTarget Publishing" --text "$upload" --icon "x" --background-top "dfa723" --background-bottom "fdde88" --border-color "a25f0a")
+	fi
+else
+	if [ "$upload" == "name" ]; then
+   		thebubble=$(CocoaDialog ok-msgbox --text "ExactTarget Publishing" --float --timeout 2 --no-cancel --informative-text "Must provide ContentArea name")		
+	elif [ "$upload" == "user" ]; then
+		thebubble=$(CocoaDialog ok-msgbox --text "ExactTarget Publishing" --float --timeout 2 --no-cancel --informative-text "Incorrect ExactTarget Username/Password")
+	elif [ "$upload" == "created" ]; then
+    	thebubble=$(CocoaDialog ok-msgbox --text "ExactTarget Publishing" --float --timeout 2 --no-cancel --informative-text "Publishing was a success!")
+	else
+		thebubble=$(CocoaDialog ok-msgbox --text "ExactTarget Publishing" --float --timeout 2 --no-cancel --informative-text "$upload")
+	fi
+fi
+
+echo "$thebubble"</string>
+	<key>input</key>
+	<string>document</string>
+	<key>keyEquivalent</key>
+	<string>@P</string>
+	<key>name</key>
+	<string>Publish Free Form Content Area</string>
+	<key>output</key>
+	<string>discard</string>
+	<key>uuid</key>
+	<string>7FF70226-4151-4DF5-8F09-C531E04EC11A</string>
+</dict>
+</plist>

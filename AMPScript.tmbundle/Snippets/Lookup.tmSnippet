@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>Lookup("${1:Data Extension Name}","${2:Return Column}","${3:Match Column}",${4:Value to Match})</string>
+	<key>name</key>
+	<string>Lookup</string>
+	<key>tabTrigger</key>
+	<string>lu</string>
+	<key>uuid</key>
+	<string>00FBC733-0F30-4F26-8AAE-A341AC60A02E</string>
+</dict>
+</plist>

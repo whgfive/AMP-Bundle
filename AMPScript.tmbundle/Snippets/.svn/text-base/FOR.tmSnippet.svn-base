@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>FOR @${1:Variable} = ${2:Start Expression} ${3:TO|DOWNTO} ${4:End Expression} DO 
+	$5
+NEXT @${1:Variable}</string>
+	<key>name</key>
+	<string>FOR</string>
+	<key>tabTrigger</key>
+	<string>for</string>
+	<key>uuid</key>
+	<string>6680738C-CC65-40E7-8F8B-FF725E876605</string>
+</dict>
+</plist>

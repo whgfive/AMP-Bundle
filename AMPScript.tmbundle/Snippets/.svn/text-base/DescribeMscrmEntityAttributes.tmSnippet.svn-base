@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>DescribeMscrmEntityAttributes(${1:Entity to retrieve attributes})</string>
+	<key>name</key>
+	<string>DescribeMscrmEntityAttributes</string>
+	<key>tabTrigger</key>
+	<string>msdea</string>
+	<key>uuid</key>
+	<string>CE32B234-1B16-4BB7-9A24-589617021D2B</string>
+</dict>
+</plist>

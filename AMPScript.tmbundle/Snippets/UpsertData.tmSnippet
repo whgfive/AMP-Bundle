@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>UpsertData("${1:Data Extension name}",${2:Number of columns},${3:Column name for WHERE},${4:Column value for WHERE},${5:Column name for INSERT},${6:Column value for INSERT})</string>
+	<key>name</key>
+	<string>UpsertData</string>
+	<key>tabTrigger</key>
+	<string>usd</string>
+	<key>uuid</key>
+	<string>E72E05E2-56BA-472C-A9AC-5645632D4CC4</string>
+</dict>
+</plist>

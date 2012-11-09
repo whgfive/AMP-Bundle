@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>UpdateMscrmRecords(${1:Name of MSCRM entity},${2:CSV list of record GUIDs to update},${3:Name to update},${4:Value to update})</string>
+	<key>name</key>
+	<string>UpdateMscrmRecords</string>
+	<key>tabTrigger</key>
+	<string>msup</string>
+	<key>uuid</key>
+	<string>D59A374F-D19C-40D3-82E7-41E3917E5FEE</string>
+</dict>
+</plist>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>Mod(${1:The dividend},${2:The divisor})</string>
+	<key>name</key>
+	<string>Mod</string>
+	<key>tabTrigger</key>
+	<string>mo</string>
+	<key>uuid</key>
+	<string>3D8A1118-8284-413A-A474-1DA93700D835</string>
+</dict>
+</plist>

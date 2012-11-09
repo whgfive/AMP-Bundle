@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>WrapLongURL("${1:URL to be wrapped}")</string>
+	<key>name</key>
+	<string>WrapLongURL</string>
+	<key>tabTrigger</key>
+	<string>wlu</string>
+	<key>uuid</key>
+	<string>31724053-A676-465F-81D1-0DCA77F370CB</string>
+</dict>
+</plist>

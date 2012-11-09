@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>IsPhoneNumber(${1:Phone number to be validated})</string>
+	<key>name</key>
+	<string>IsPhoneNumber</string>
+	<key>tabTrigger</key>
+	<string>isn</string>
+	<key>uuid</key>
+	<string>E5290978-5E24-43CC-B7B1-59FBAD8E82DE</string>
+</dict>
+</plist>

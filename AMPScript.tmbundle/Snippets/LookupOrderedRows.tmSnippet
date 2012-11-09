@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>LookupOrderedRows("${1:Data Extension Name}",${2:Number of rows to return},"${3:Order clause asc|desc}","${4:Column to match}",${5:Value to match})</string>
+	<key>name</key>
+	<string>LookupOrderedRows</string>
+	<key>tabTrigger</key>
+	<string>luo</string>
+	<key>uuid</key>
+	<string>50617938-9873-4068-A055-865A59B3C15C</string>
+</dict>
+</plist>

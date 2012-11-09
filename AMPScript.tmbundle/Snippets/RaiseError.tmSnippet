@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>RaiseError("${1:Error message}",${2:Stop send to subscriber true|false})</string>
+	<key>name</key>
+	<string>RaiseError</string>
+	<key>tabTrigger</key>
+	<string>re</string>
+	<key>uuid</key>
+	<string>088BBB37-3573-48A3-8106-45E400DF44BC</string>
+</dict>
+</plist>

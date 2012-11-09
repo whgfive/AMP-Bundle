@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby
+require "uri"
+require "net/http"
+
+htmlDoc = STDIN.read
+params = {
+	'source' =&gt; htmlDoc,
+	'returnraw' =&gt; '1'
+}
+
+response = Net::HTTP.post_form(URI.parse('http://inlinestyler.torchboxapps.com/styler/convert/'), params)
+puts response.body</string>
+	<key>input</key>
+	<string>document</string>
+	<key>keyEquivalent</key>
+	<string>@C</string>
+	<key>name</key>
+	<string>Convert CSS to Inline</string>
+	<key>output</key>
+	<string>openAsNewDocument</string>
+	<key>uuid</key>
+	<string>9F7361F7-125F-4395-9F02-C718F6E036AA</string>
+</dict>
+</plist>

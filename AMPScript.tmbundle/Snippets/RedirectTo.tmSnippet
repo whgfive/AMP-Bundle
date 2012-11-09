@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>RedirectTo(${1:URL to redirect})</string>
+	<key>name</key>
+	<string>RedirectTo</string>
+	<key>tabTrigger</key>
+	<string>redt</string>
+	<key>uuid</key>
+	<string>FB026153-F1E4-4A16-B0A4-1DD2AEFD9478</string>
+</dict>
+</plist>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>DateDiff(${1:Date from which to subtract},${2:Date to subtract},${3:Y|M|D})</string>
+	<key>name</key>
+	<string>DateDiff</string>
+	<key>tabTrigger</key>
+	<string>dd</string>
+	<key>uuid</key>
+	<string>AA185448-ABCB-4CE4-8907-49BD54A7793E</string>
+</dict>
+</plist>

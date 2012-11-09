@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>SetStateMscrmRecord(${1:GUID of record to set},${2:MSCRM entity name},${3:State Active|Inactive},${4:Status 0|1})</string>
+	<key>name</key>
+	<string>SetStateMscrmRecord</string>
+	<key>tabTrigger</key>
+	<string>msssr</string>
+	<key>uuid</key>
+	<string>73D1FC9D-61C3-4C8A-BB98-8FE40AA1FA31</string>
+</dict>
+</plist>

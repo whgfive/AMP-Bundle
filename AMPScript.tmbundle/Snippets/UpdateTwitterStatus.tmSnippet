@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>UpdateTwitterStatus(${1})</string>
+	<key>name</key>
+	<string>UpdateTwitterStatus</string>
+	<key>tabTrigger</key>
+	<string>uts</string>
+	<key>uuid</key>
+	<string>681C1189-1F8F-4874-80BD-1F6DDDCB1E98</string>
+</dict>
+</plist>

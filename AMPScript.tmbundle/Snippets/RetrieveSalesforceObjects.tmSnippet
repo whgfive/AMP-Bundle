@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>RetrieveSalesforceObjects(${1:Object type},${2:Fields to retrieve},${3:Field name for match},${4:Field value for match})</string>
+	<key>name</key>
+	<string>RetrieveSalesforceObjects</string>
+	<key>tabTrigger</key>
+	<string>rso</string>
+	<key>uuid</key>
+	<string>5DC6C6CF-9AEB-4F1D-8A09-481B578C97C0</string>
+</dict>
+</plist>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>CreateSalesforceObject(${1:Object type},${2:Number of fields},${3:Field name},${4:Field value})</string>
+	<key>name</key>
+	<string>CreateSalesforceObject</string>
+	<key>tabTrigger</key>
+	<string>cso</string>
+	<key>uuid</key>
+	<string>C4464897-E2EF-444F-BD6A-B67CFB4EBBF9</string>
+</dict>
+</plist>

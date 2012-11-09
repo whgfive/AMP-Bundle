@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>UpdateSingleSalesforceObject(${1:Type of object},${2:ID of object},${3:Name of field},${4:Value to update field})</string>
+	<key>name</key>
+	<string>UpdateSingleSalesforceObject</string>
+	<key>tabTrigger</key>
+	<string>usso</string>
+	<key>uuid</key>
+	<string>6124314F-80FA-467F-8FC6-42F65119CC45</string>
+</dict>
+</plist>

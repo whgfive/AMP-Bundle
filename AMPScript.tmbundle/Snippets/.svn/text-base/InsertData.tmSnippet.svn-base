@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>InsertData(${1:Data Extension name},${2:Column name},${3:Value to insert})</string>
+	<key>name</key>
+	<string>InsertData</string>
+	<key>tabTrigger</key>
+	<string>id</string>
+	<key>uuid</key>
+	<string>768F597A-1826-4802-A683-3935D2B02D05</string>
+</dict>
+</plist>
