@@ -26,8 +26,7 @@ pass=$(tail -n1 &lt;&lt;&lt;"$pass")
 items=("S1" "S4" "S6")
 
 env=$(CocoaDialog standard-dropdown --title "Publish to Content Area" \
-    --text "Choose Environment:" --items "${items[@]}" \
-    --button1 "Next" --button2 "Cancel")
+    --text "Choose Environment:" --items "${items[@]}")
 [[ $(head -n1 &lt;&lt;&lt;"$env") == "2" ]] &amp;&amp; exit_discard
 env=$(tail -n1 &lt;&lt;&lt;"$env")
 
