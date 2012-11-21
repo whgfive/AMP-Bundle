@@ -6,8 +6,7 @@ A TextMate Bundle for the ExactTarget's AMPScript language.
 Installation:
 -------------
 
-    cd ~/Library/Application\ Support/TextMate/Bundles [TM 1]
-    cd /Applications/TextMate.app/Contents/SharedSupport/Bundles [TM > 1]
+    cd ~/Library/Application\ Support/TextMate/Bundles
     git clone git://github.com/whgfive/AMP-Bundle AMPScript.tmbundle
 
 ![screenshot](http://www.imhlabs.com/AMPscript-Bundle/tm.png)
