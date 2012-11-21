@@ -23,7 +23,15 @@ pass=$(CocoaDialog secure-inputbox --title "Publish to Content Area" \
 [[ $(head -n1 &lt;&lt;&lt;"$pass") == "2" ]] &amp;&amp; exit_discard
 pass=$(tail -n1 &lt;&lt;&lt;"$pass")
 
-upload=$(ruby "$TM_BUNDLE_SUPPORT/bin/PostFFCA.rb" "$name" "$user" "$pass"
+items=("S1" "S4" "S6")
+
+env=$(CocoaDialog standard-dropdown --title "Publish to Content Area" \
+    --text "Choose Environment:" --items "${items[@]}" \
+    --button1 "Next" --button2 "Cancel")
+[[ $(head -n1 &lt;&lt;&lt;"$env") == "2" ]] &amp;&amp; exit_discard
+env=$(tail -n1 &lt;&lt;&lt;"$env")
+
+upload=$(ruby "$TM_BUNDLE_SUPPORT/bin/PostFFCA.rb" "$name" "$user" "$pass" "$env"
 	 2&gt; &gt;(CocoaDialog progressbar --indeterminate --title "Publish to Content Area" --text "Publishing to ExactTarget..."))
 echo "$upload"
 
