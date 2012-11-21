@@ -30,7 +30,6 @@ env=$(CocoaDialog standard-dropdown --title "Publish to Content Area" \
 [[ $(head -n1 &lt;&lt;&lt;"$env") == "2" ]] &amp;&amp; exit_discard
 env=$(tail -n1 &lt;&lt;&lt;"$env")
 
-
 upload=$(ruby "$TM_BUNDLE_SUPPORT/bin/PostHTMLCA.rb" "$name" "$user" "$pass" "$env"
 	 2&gt; &gt;(CocoaDialog progressbar --indeterminate --title "Publish to Content Area" --text "Publishing to ExactTarget..."))
 echo "$upload"
