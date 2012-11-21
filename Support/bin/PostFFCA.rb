@@ -15,5 +15,5 @@ params = {
 	'amp' => htmlDoc
 }
 
-response = Net::HTTP.post_form(URI.parse('http://www.imhlabs.com/AMPscript-bundle/API/ContentAreaFreeForm.php'), params)
+response = Net::HTTP.post_form(URI.parse('http://www.imhlabs.com/AMPscript-Bundle/API/ContentAreaFreeForm.php'), params)
 puts response.body
