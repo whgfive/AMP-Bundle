@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>name=$(CocoaDialog inputbox --title "Publish an HTML Email" \
+    --informative-text "Please provide Email name:" \
+    --button1 "Next" --button2 "Cancel")
+[[ $(head -n1 &lt;&lt;&lt;"$name") == "2" ]] &amp;&amp; exit_discard
+name=$(tail -n1 &lt;&lt;&lt;"$name")
+
+sub=$(CocoaDialog inputbox --title "Publish an HTML Email" \
+    --informative-text "Please provide a Subject:" \
+    --button1 "Next" --button2 "Cancel")
+[[ $(head -n1 &lt;&lt;&lt;"$sub") == "2" ]] &amp;&amp; exit_discard
+sub=$(tail -n1 &lt;&lt;&lt;"$sub")
+
+items=("iso-8859-2" "big5" "Shift-JIS" "iso-2022-JP" "EUC-KR" "koi8-r" "UTF-8" "us-ascii" "iso-8859-1")
+
+enc=$(CocoaDialog standard-dropdown --title "Publish to an HTML Email" \
+    --text "Choose encoding:" --items "${items[@]}")
+[[ $(head -n1 &lt;&lt;&lt;"$enc") == "2" ]] &amp;&amp; exit_discard
+enc=$(tail -n1 &lt;&lt;&lt;"$enc")
+
+items=("Yes" "No")
+
+txt=$(CocoaDialog standard-dropdown --title "Publish to an HTML Email" \
+    --text "Create clean Text version?" --items "${items[@]}")
+[[ $(head -n1 &lt;&lt;&lt;"$txt") == "2" ]] &amp;&amp; exit_discard
+txt=$(tail -n1 &lt;&lt;&lt;"$txt")
+
+user=$(CocoaDialog inputbox --title "Publish an HTML Email" \
+    --informative-text "Please provide ExactTarget username:" \
+    --button1 "Next" --button2 "Cancel")
+[[ $(head -n1 &lt;&lt;&lt;"$user") == "2" ]] &amp;&amp; exit_discard
+user=$(tail -n1 &lt;&lt;&lt;"$user")
+
+pass=$(CocoaDialog secure-inputbox --title "Publish an HTML Email" \
+    --informative-text "Please provide ExactTarget password:" \
+    --button1 "Next" --button2 "Cancel")
+[[ $(head -n1 &lt;&lt;&lt;"$pass") == "2" ]] &amp;&amp; exit_discard
+pass=$(tail -n1 &lt;&lt;&lt;"$pass")
+
+items=("S1" "S4" "S6")
+
+env=$(CocoaDialog standard-dropdown --title "Publish to an HTML Email" \
+    --text "Choose Environment:" --items "${items[@]}")
+[[ $(head -n1 &lt;&lt;&lt;"$env") == "2" ]] &amp;&amp; exit_discard
+env=$(tail -n1 &lt;&lt;&lt;"$env")
+
+upload=$(ruby "$TM_BUNDLE_SUPPORT/bin/PostHTMLEmail.rb" "$name" "$user" "$pass" "$env" "$enc" "$sub" "$txt"
+	 2&gt; &gt;(CocoaDialog progressbar --indeterminate --title "Publish to Content Area" --text "Publishing to ExactTarget..."))
+echo "$upload"
+
+os=$(uname)
+
+if [ "$os" == "Darwin" ]; then
+	if [ "$upload" == "name" ]; then
+   		thebubble=$(CocoaDialog bubble --title "ExactTarget Publishing" --text "Must provide ContentArea name" --icon "x" --background-top "dfa723" --background-bottom "fdde88" --border-color "a25f0a")		
+	elif [ "$upload" == "user" ]; then
+		thebubble=$(CocoaDialog bubble --title "ExactTarget Publishing" --text "Incorrect ExactTarget Username/Password" --icon "x" --background-top "dfa723" --background-bottom "fdde88" --border-color "a25f0a")
+	elif [ "$upload" == "created" ]; then
+    	thebubble=$(CocoaDialog bubble --title "ExactTarget Publishing" --text "Publishing was a success!" --icon "document" --background-top "aefe95" --background-bottom "00cb24")
+	else
+		thebubble=$(CocoaDialog bubble --title "ExactTarget Publishing" --text "$upload" --icon "x" --background-top "dfa723" --background-bottom "fdde88" --border-color "a25f0a")
+	fi
+else
+	if [ "$upload" == "name" ]; then
+   		thebubble=$(CocoaDialog ok-msgbox --text "ExactTarget Publishing" --float --timeout 2 --no-cancel --informative-text "Must provide ContentArea name")		
+	elif [ "$upload" == "user" ]; then
+		thebubble=$(CocoaDialog ok-msgbox --text "ExactTarget Publishing" --float --timeout 2 --no-cancel --informative-text "Incorrect ExactTarget Username/Password")
+	elif [ "$upload" == "created" ]; then
+    	thebubble=$(CocoaDialog ok-msgbox --text "ExactTarget Publishing" --float --timeout 2 --no-cancel --informative-text "Publishing was a success!")
+	else
+		thebubble=$(CocoaDialog ok-msgbox --text "ExactTarget Publishing" --float --timeout 2 --no-cancel --informative-text "$upload")
+	fi
+fi
+
+echo "$thebubble"</string>
+	<key>input</key>
+	<string>document</string>
+	<key>keyEquivalent</key>
+	<string>@E</string>
+	<key>name</key>
+	<string>Publish HTML Email</string>
+	<key>output</key>
+	<string>discard</string>
+	<key>uuid</key>
+	<string>A4B48607-9E25-469A-937C-9C409CB55946</string>
+</dict>
+</plist>
